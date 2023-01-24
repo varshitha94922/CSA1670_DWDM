@@ -1,0 +1,32 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8
+Relation:     House
+Instances:    1459
+Attributes:   2
+              Id
+              SalePrice
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+SalePrice =
+
+      4.9464 * Id +
+ 168351.288 
+
+Time taken to build model: 0.12 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient              0.118 
+Mean absolute error                  11913.2804
+Root mean squared error              16397.7973
+Relative absolute error              99.2273 %
+Root relative squared error          99.2449 %
+Total Number of Instances            1459     
+
